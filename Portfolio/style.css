@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600&display=swap');
+
+* {
+    font-family: 'Caveat', cursive;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section.nav {
+    background: #030303;
+    height: 100vh;
+   
+}
+
+div.logo {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+}
+
+.logo {
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.logo a {
+    color: #D1D1D1;
+}
+
+.logo a:hover{
+    color: #CC7729;
+    text-decoration: overline;
+    transition: all .2s linear;
+}
+
+i {
+    color: #CC7729;
+    font-size: 3rem;
+}
+
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.line1 {
+    border-left: .3rem solid  #676767;
+    height: 20rem;
+    margin-top: 8rem;
+    margin: 4rem;
+}
+
+.text {
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    font-size: 10rem;
+    color: #F3F3F3;
+    left: -12rem;
+    z-index: 1000;
+}
+
+.content2{
+    position: relative;
+}
+
+.circle {
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    top: -7rem;
+    width: 6rem;
+    height: 50rem;
+    border: .2rem solid #CC7729;
+    transform:  rotate(45deg);
+}
+
+
+.line2 {
+    border-right: .3rem solid  #676767;
+    height: 20rem;
+    margin-top: 8rem;
+    margin: 4rem;
+}
+
+.plus {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+    font-size: 3rem;
+    bottom: 3rem;
+}
